@@ -1,0 +1,12 @@
+Source: ros-rolling-urg-node
+Section: misc
+Priority: optional
+Maintainer: Michael Ferguson <mfergs7@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-rolling-ament-cmake, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-builtin-interfaces, ros-rolling-diagnostic-updater, ros-rolling-laser-proc, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-rosidl-default-generators, ros-rolling-sensor-msgs, ros-rolling-std-srvs, ros-rolling-urg-c, ros-rolling-urg-node-msgs, ros-rolling-ros-workspace
+Homepage: http://ros.org/wiki/urg_node
+Standards-Version: 3.9.2
+
+Package: ros-rolling-urg-node
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-rolling-builtin-interfaces, ros-rolling-diagnostic-updater, ros-rolling-laser-proc, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-rosidl-default-generators, ros-rolling-sensor-msgs, ros-rolling-std-srvs, ros-rolling-urg-c, ros-rolling-urg-node-msgs, ros-rolling-ros-workspace
+Description: urg_node
