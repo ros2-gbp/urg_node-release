@@ -2,6 +2,35 @@
 Changelog for package urg_node
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.0 (2021-03-31)
+------------------
+* Merge pull request `#86 <https://github.com/ros-drivers/urg_node/issues/86>`_ from ros-drivers/clalancette/galactic-fixes
+  Fixes for ROS 2 Galactic
+* Don't error out on unknown parameter names.
+  In general, parameter callbacks should not error out on unknown
+  parameter names.  That's because a) the callbacks may be
+  chained, and b) there may be internal parameters that are used.
+  Just ignore anything we don't know about.
+* Switch to PRIu32 for printing a uint32_t.
+  This just ensures that it works on all platforms, and
+  removes a warning on Galactic.
+* Fix rclcpp::Duration construction.
+  As of Galactic, initializing an rclcpp::Duration with just
+  a number is deprecated.  We now have to explicitly tell it
+  the units of the number, generally done through std::chrono.
+* Remove unused reconfigure method.
+* Contributors: Chris Lalancette, Michael Ferguson
+
+1.0.3 (2021-03-31)
+------------------
+* Use Python 3 specifically in helper script (`#85 <https://github.com/ros-drivers/urg_node/issues/85>`_)
+  ROS 2 only targets Python 3. Making the shebang specific will ensure it
+  isn't accidentally executed using the Python 2 interpreter.
+* travis-ci doesn't work
+  But ros build farm is giving us coverage
+* depend only on parts of boost needed by the package (`#75 <https://github.com/ros-drivers/urg_node/issues/75>`_)
+* Contributors: Michael Ferguson, Mikael Arguedas, Scott K Logan
+
 1.0.2 (2020-07-12)
 ------------------
 * uncrustify for f/r (`#74 <https://github.com/ros-drivers/urg_node/issues/74>`_)
