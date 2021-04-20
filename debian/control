@@ -1,0 +1,12 @@
+Source: ros-galactic-urg-node
+Section: misc
+Priority: optional
+Maintainer: Michael Ferguson <mfergs7@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-dev, ros-galactic-ament-cmake, ros-galactic-ament-lint-auto, ros-galactic-ament-lint-common, ros-galactic-builtin-interfaces, ros-galactic-diagnostic-updater, ros-galactic-laser-proc, ros-galactic-rclcpp, ros-galactic-rclcpp-components, ros-galactic-rosidl-default-generators, ros-galactic-sensor-msgs, ros-galactic-std-srvs, ros-galactic-urg-c, ros-galactic-urg-node-msgs, ros-galactic-ros-workspace
+Homepage: http://ros.org/wiki/urg_node
+Standards-Version: 3.9.2
+
+Package: ros-galactic-urg-node
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-dev, ros-galactic-builtin-interfaces, ros-galactic-diagnostic-updater, ros-galactic-laser-proc, ros-galactic-rclcpp, ros-galactic-rclcpp-components, ros-galactic-rosidl-default-generators, ros-galactic-sensor-msgs, ros-galactic-std-srvs, ros-galactic-urg-c, ros-galactic-urg-node-msgs, ros-galactic-ros-workspace
+Description: urg_node
