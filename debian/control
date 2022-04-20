@@ -1,0 +1,12 @@
+Source: ros-humble-urg-node
+Section: misc
+Priority: optional
+Maintainer: Michael Ferguson <mfergs7@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-dev, ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-builtin-interfaces, ros-humble-diagnostic-updater, ros-humble-laser-proc, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rosidl-default-generators, ros-humble-sensor-msgs, ros-humble-std-srvs, ros-humble-urg-c, ros-humble-urg-node-msgs, ros-humble-ros-workspace
+Homepage: http://ros.org/wiki/urg_node
+Standards-Version: 3.9.2
+
+Package: ros-humble-urg-node
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-dev, ros-humble-builtin-interfaces, ros-humble-diagnostic-updater, ros-humble-laser-proc, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rosidl-default-generators, ros-humble-sensor-msgs, ros-humble-std-srvs, ros-humble-urg-c, ros-humble-urg-node-msgs, ros-humble-ros-workspace
+Description: urg_node
