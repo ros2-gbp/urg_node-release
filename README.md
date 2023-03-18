@@ -1,3 +1,26 @@
+## urg_node (rolling) - 1.1.1-1
+
+The packages in the `urg_node` repository were released into the `rolling` distro by running `/usr/bin/bloom-release -r rolling -t rolling urg_node` on `Sat, 18 Mar 2023 14:43:42 -0000`
+
+The `urg_node` package was released.
+
+Version of package(s) in repository `urg_node`:
+
+- upstream repository: https://github.com/ros-drivers/urg_node.git
+- release repository: https://github.com/ros2-gbp/urg_node-release.git
+- rosdistro version: `1.1.0-2`
+- old version: `1.1.0-2`
+- new version: `1.1.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## urg_node (humble) - 1.1.1-1
 
 The packages in the `urg_node` repository were released into the `humble` distro by running `/usr/bin/bloom-release -r humble -t humble urg_node` on `Sat, 18 Mar 2023 14:41:02 -0000`
