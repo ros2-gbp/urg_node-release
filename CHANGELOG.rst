@@ -2,11 +2,6 @@
 Changelog for package urg_node
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.2.0 (2025-05-23)
-------------------
-* replace ament_target_dependencies (`#120 <https://github.com/ros-drivers/urg_node/issues/120>`_)
-* Contributors: Michael Ferguson
-
 1.1.2 (2025-05-23)
 ------------------
 * README syntax updates (`#112 <https://github.com/ros-drivers/urg_node/issues/112>`_)
