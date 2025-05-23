@@ -1,3 +1,26 @@
+## urg_node (jazzy) - 1.1.2-1
+
+The packages in the `urg_node` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release -r jazzy -t jazzy urg_node` on `Fri, 23 May 2025 13:50:39 -0000`
+
+The `urg_node` package was released.
+
+Version of package(s) in repository `urg_node`:
+
+- upstream repository: https://github.com/ros-drivers/urg_node.git
+- release repository: https://github.com/ros2-gbp/urg_node-release.git
+- rosdistro version: `1.1.1-4`
+- old version: `1.1.1-4`
+- new version: `1.1.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## urg_node (humble) - 1.1.2-1
 
 The packages in the `urg_node` repository were released into the `humble` distro by running `/usr/bin/bloom-release -r humble -t humble urg_node` on `Fri, 23 May 2025 13:49:17 -0000`
