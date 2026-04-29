@@ -1,0 +1,12 @@
+Source: ros-lyrical-urg-node
+Section: misc
+Priority: optional
+Maintainer: Michael Ferguson <mfergs7@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-builtin-interfaces, ros-lyrical-diagnostic-updater, ros-lyrical-laser-proc, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rosidl-default-generators, ros-lyrical-sensor-msgs, ros-lyrical-std-srvs, ros-lyrical-urg-c, ros-lyrical-urg-node-msgs, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/urg_node
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-urg-node
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-dev, ros-lyrical-builtin-interfaces, ros-lyrical-diagnostic-updater, ros-lyrical-laser-proc, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rosidl-default-generators, ros-lyrical-sensor-msgs, ros-lyrical-std-srvs, ros-lyrical-urdf, ros-lyrical-urg-c, ros-lyrical-urg-node-msgs, ros-lyrical-ros-workspace
+Description: urg_node
